@@ -1,0 +1,10 @@
+# Data for the bar chart
+categories = ['Spinach', 'Sausage', 'Prawns', 'Pineapple', 'Mushroom']
+proportions = [0.25, 0.15, 0.1, 0.2, 0.3]
+
+# Create the bar chart
+plt.barh(categories, proportions, color='purple')
+plt.xlabel('Proportion of Total')
+plt.ylabel('Categories')
+plt.title('Bar Chart of Proportions')
+plt.show()
